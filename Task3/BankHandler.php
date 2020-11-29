@@ -4,7 +4,6 @@ $data = json_decode(file_get_contents("php://input"));
 
 $nominalBuf = $data[0];
 $sum = $data[1];
-$sumValidator = $sum; 
 
 // Преобразование полученной строки номиналов в массив
 $nominalArray = explode(",", $nominalBuf);
